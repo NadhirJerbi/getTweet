@@ -7,7 +7,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
 
-client = tweepy.Client(bearer_token="AAAAAAAAAAAAAAAAAAAAACeRWwEAAAAA5x7JrbsrWIydetrZ93%2Bh%2FSJh1u8%3DZrjwg2t2S12JlWqZoBR2UBNn6SkdxLM15rn8sNFn1JpbvHiB6A")
+client = tweepy.Client(bearer_token="your tweet project bearer_token ")
 
 def clean_tweet(tweet,search):
     twt = tweet.lower()
